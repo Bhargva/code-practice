@@ -22,30 +22,7 @@ class d1array2 {
 
         return cheak(leap,game,i+1)||cheak(leap,game,i+leap)||cheak(leap,game,i-1);
     }
-    //     int i=0;
-    //     while(i+leap<=game.length)
-    //     {
 
-    //         if(game[i]==0)
-    //         {
-    //             i++;
-    //         }
-    //         else if(game[i+leap-1]==0)
-    //         {
-    //             i+=leap;
-    //         }
-    //         else break;
-
-    //     }
-    //     if(i+leap>game.length)
-    //     {
-    //         return true;
-    //     }
-    //     else
-    //     {
-    //         return false;
-    //     }
-    // }
 
 
     public static void main(String[] args) {
